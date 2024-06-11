@@ -1,0 +1,120 @@
+body {
+    background-color: #000; /* Background hitam */
+    color: #fff; /* Teks berwarna putih */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    color: #fff;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #444;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-content h2 {
+    color: #fff;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #ff9800;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #e68900;
+}
+
+.topup {
+    background-color: #222;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.topup h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+form input, form select, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form input, form select {
+    background-color: #333;
+    color: #fff;
+}
+
+form button {
+    background-color: #ff9800;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e68900;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+}
